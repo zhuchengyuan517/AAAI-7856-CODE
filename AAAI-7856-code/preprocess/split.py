@@ -2,7 +2,7 @@ import csv
 import os
 import pandas as pd
 
-# data的根目录
+# Root directory of data
 dir = 'D:\\Code\\data\\raw data'
 files = os.listdir(dir)
 for file in files:
