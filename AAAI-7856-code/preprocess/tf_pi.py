@@ -27,7 +27,7 @@ def create_specgram(signal, title, output_file):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    # 处理每个csv文件
+    # Process each CSV file
     for filename in os.listdir(input_dir):
         if filename.endswith('.csv'):
             input_path = os.path.join(input_dir, filename)
